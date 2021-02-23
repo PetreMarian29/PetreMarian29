@@ -166,7 +166,7 @@ display: block;
 }
 .home__title{
     align-self: flex-end;
-    font-size: var(--big-font-size);
+    font-size: var(--normal-font-size);
     color: var(--white-color);
     line-height: .8;
 }
