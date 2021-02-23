@@ -1,0 +1,80 @@
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: #21211e;
+    display: flex;
+}
+.main .left{
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 20px 20px 90px;
+} 
+.main .left .link{
+    color: rgb(218, 183, 87);
+    margin-bottom: 45px;
+    font-size: 16px;
+}
+.main .left .link a{
+    text-decoration: none;
+    color: rgb(218, 183, 87);
+    transition: 200ms color ease-in;
+}
+.main .left .link a:hover{
+    color: rgb(221, 195, 125);
+}
+.main .left .main-text{
+    font-size: 40px;
+}
+.main .right{
+    flex: 1;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.main .right img{
+    width: 50vw;
+    height: 90vh;
+}
+.about{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 16px;
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    padding-top: 40px;
+}
+.about .left{
+    flex: 1;  
+    padding-left: 90px; 
+    padding-right: 50px; 
+}
+.about .right{
+    flex: 1;    
+    padding-right: 20px;
+}   
+.about .content{
+font-size: 17px;
+}
+
+.about hr {
+    border: 0;
+    height: 3px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(to right, rgb(218, 183, 87), #21211e, #21211e);
+}
+.about .right .content{
+    display: flex;
+}
+.about .right .content .column{
+    margin-right: 150px;
+    font-size: 16px;
+}
+.about .right .content .column div{
+    margin-bottom: 5px;
+}
