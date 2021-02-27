@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+body{
+    font-family: 'Merienda';
+    color: white;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+.carousel-item{
+    padding-top: 60px;
+    height: 45vh;
+    padding-top: 20px;
+}
+.main-header{
+    padding-top: 30px;
+    text-align:center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    left: 0;
+    padding-top: 40px;
+}
+    
+.sidebar div {
+    padding: 8px;
+    font-size: 16px;
+    display: block;
+}
+    
+.body-text {
+    text-align: center;
+    margin-left: 200px;
+    font-size: 18px;
+    padding: 30px 30px;
+}
+.dates{
+     font-size: 18px;
+     font-weight: bold;
+      padding-bottom: 15px;
+}
+.video{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    padding: 40px;
+}

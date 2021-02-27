@@ -124,6 +124,7 @@ display: block;
         transition: .5s;
         backdrop-filter: blur(10px);
     }
+    
 }
 .nav__item{
     margin-bottom: var(--mb-4);
