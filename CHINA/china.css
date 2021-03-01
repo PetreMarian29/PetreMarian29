@@ -1,0 +1,71 @@
+.sidenav{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    /* padding-top: 60px; */
+}
+.sidenav a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px 10px 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sidenav a:hover{
+    color: black;
+}
+#platform-related{
+    padding-top: 40px;
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 16px;
+}
+#platform-related::after{
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 1.5px solid rgb(93, 93, 233);
+}
+.main-content{
+    padding-left: 200px;
+}
+#mylogo{
+    width: 100px;
+    height: 80px;
+}
+.table{
+    display: flex;
+    background-color: rgb(228, 220, 220);
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    text-align: center;
+}
+.table > div{
+    height: 400px;
+    background-color: white;
+}
+.table > div p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.table div button{
+    background-color: rgb(93, 93, 233);
+}
+.main-header > h2{
+    font-size: 16px;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgb(93, 93, 233);
+}
+.main-header > h1{
+    padding: 20px 30px;
+    font-size: 20px;
+}
